@@ -1,0 +1,698 @@
+{
+  "uuid": "e32faf05096ea04d17ddb3a34b267dab",
+  "path": "Offline/keyless%20entry%20car",
+  "name": "keyless entry car",
+  "content": "",
+  "created_at": "2024-10-14 14:13:09",
+  "updated_at": "2024-11-23 17:52:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9dc9e37eca48f77bbc7981fa5340552f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "61e82868ed854503b4f1f41ab3c541e4": 1,
+        "6f0a3ac7bf2d47dc86ffa824b52434c4": 1,
+        "aa48523dd03143ae8320b7b4e18e2dc1": 1,
+        "4310674c17a7400285a75bef632399bc": 1,
+        "ed114c3e62d8498cbfcaae87b4acc871": 1,
+        "404aa9221ff94de597b8734806e7c74f": 4,
+        "862ed08682fc416cb7c001ac41993795": 1,
+        "b208040e9bb14623ab22a34ff819cfa1": 1,
+        "2d3db1c7473b424ab5ce67b3f72ec5f7": 1,
+        "db0445e4ac4e403ca5848734df419b41": 1,
+        "987b0e40db004dcf85d913a5dfd851db": 1,
+        "1104e5d2acf64ee5b3cfe84a93092e04": 1,
+        "7a0c79967d0e7ae293044fb82790899a": 2,
+        "c88bca2019694c75a4c7760ebee5af60": 2,
+        "c9a60954ce3f4b93a06cb278ff27dbd8": 5,
+        "4259cd729eaf46059f65e1070ed87187": 1,
+        "289e4d5566064702a6e2f342845d4877": 1,
+        "3729f0e6b69f4ea19f6f9e5dec5e92c5": 3,
+        "1db9752f31b64be79dd94f83e97bc373": 4,
+        "ed0b8cd717c044328bf3858869a2205f": 1,
+        "91ff21ffc0b14041adf6caee0ffbda72": 14,
+        "b209a50da6444550a2c1c06246247e15": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          4,
+          "HDR-M-2.54_1X1",
+          "3.3V,GND,RX,TX",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "AP2112K-3.3TRG1",
+          1,
+          "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL",
+          "5-3V",
+          {
+            "Manufacturer Part": "AP2112K-3.3TRG1",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C51118"
+          }
+        ],
+        [
+          "LM2596DP-5.0",
+          1,
+          "SOP-8-PP_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "12-5V",
+          {
+            "Manufacturer Part": "LM2596DP-5.0",
+            "Manufacturer": "HTC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C596341"
+          }
+        ],
+        [
+          "XH-2AK",
+          5,
+          "CONN-TH_XH-2A",
+          "AUTO-LIGHT,LIGHT-SENSOR,POWER,PWRF,TRUNK",
+          {
+            "Manufacturer Part": "XH-2AK米色",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146104"
+          }
+        ],
+        [
+          "680uF",
+          1,
+          "CAP-TH_BD6.3-P2.60-D0.6-FD-1",
+          "CIN",
+          {
+            "Manufacturer Part": "SPT1CM681E12ORVZC",
+            "Manufacturer": "Yunxing(云星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3024241"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0805",
+          "CIN-3,COUT-3",
+          {
+            "Manufacturer Part": "CL21A106KAYNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C15850"
+          }
+        ],
+        [
+          "220uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D1.0-FD",
+          "COUT",
+          {
+            "Manufacturer Part": "UPW1A221MED1TD",
+            "Manufacturer": "Nichicon(尼吉康)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225866"
+          }
+        ],
+        [
+          "1N5824_C27636124",
+          1,
+          "DO-201AD_BD5.3-L9.0-P13.00-D1.3-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5824",
+            "Manufacturer": "DOWO(东沃)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C27636124"
+          }
+        ],
+        [
+          "XD-XH-5A-G",
+          1,
+          "CONN-TH_XH-5A",
+          "DRF",
+          {
+            "Manufacturer Part": "XD-XH-5A-G",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17700949"
+          }
+        ],
+        [
+          "XD-XH-3A-G",
+          3,
+          "CONN-TH_3P-P2.50_XH-3A-C9900029692",
+          "HALL-CLUTCH,HALL-SHIFTER,TEMPERATURE",
+          {
+            "Manufacturer Part": "XD-XH-3A-G",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17700947"
+          }
+        ],
+        [
+          "XH-5A_C2908603",
+          1,
+          "CONN-TH_5P-P2.50_XH-5A",
+          "IGNITION-LIGHTS",
+          {
+            "Manufacturer Part": "XH-5A",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2908603"
+          }
+        ],
+        [
+          "2.54MM-6P ZZ",
+          1,
+          "CONN-TH_6P-P2.50_HCTL_XH-6A_C2908604",
+          "KEY",
+          {
+            "Manufacturer Part": "2.54mm-6P ZZ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5368779"
+          }
+        ],
+        [
+          "33uH",
+          1,
+          "IND-SMD_L10.8-W10.0_SLO1040H",
+          "L1",
+          {
+            "Manufacturer Part": "SLO1040H330MTT",
+            "Manufacturer": "Sunltech(韩国顺磁)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C182163"
+          }
+        ],
+        [
+          "1k",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R5,R6,R7",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R2,R3,R9,R10",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "REN,RIO,RSW,RVCC",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "20k",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "RGND",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "5k",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "RSENS",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "SS-22F06-G090",
+          1,
+          "SW-TH_6P-L16.5-W7.5-P4.0-LS2.6-TL",
+          "SW1",
+          {
+            "Manufacturer Part": "SS-22F06-G090",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2848929"
+          }
+        ],
+        [
+          "GT-TC029A-H025-L1A",
+          2,
+          "SW-SMD_L3.9-W2.9-P4.40-EH",
+          "SWEN,SWIO0",
+          {
+            "Manufacturer Part": "GT-TC029A-H025-L1A",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C843666"
+          }
+        ],
+        [
+          "ARD_MEGA2560PRO",
+          1,
+          "COMM-SMD_L54.0-W38.0-P2.54_ARD_MEGA2560PRO",
+          "U1",
+          {
+            "Manufacturer Part": "ARD_MEGA2560PRO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900135944"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D-H4",
+          1,
+          "WIFIM-SMD_ESP32-WROOM-32D",
+          "U2",
+          {
+            "Manufacturer Part": "ESP32-WROOM-32D-H4",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3013936"
+          }
+        ],
+        [
+          "2N2222AU",
+          4,
+          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "U3,U4,U5,U6",
+          {
+            "Manufacturer Part": "2N2222AU",
+            "Manufacturer": "CBI(创基)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C21714170"
+          }
+        ],
+        [
+          "TXS0102DCUR",
+          1,
+          "VSON8_L2.0-W2.3-P0.50-LS3.1-BL",
+          "U19",
+          {
+            "Manufacturer Part": "TXS0102DCUR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C53434"
+          }
+        ]
+      ],
+      "updateTime": 1732377175,
+      "createTime": 1728904389,
+      "histories": [],
+      "created_at": "2024-10-14 14:13:09",
+      "updated_at": "2024-11-23 17:52:55"
+    },
+    {
+      "uuid": "7d6251d42cbba1bad83494bcd6939f15",
+      "puuid": "e32faf05096ea04d17ddb3a34b267dab",
+      "title": "PCB_keyless entry car",
+      "filename": "PCB_keyless entry car.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9c54a2a8a5534fbf9f5a52cf9eb026fc": 1,
+        "743f02f614624025bdfe490c3e40495d": 5,
+        "19c77e72422b43b59c26b9fa67af5de4": 4,
+        "7ec9305c6bfd40199d1dde43ba8e9df2": 1,
+        "a007f25cf600471caf4fe8d38cb870f9": 1,
+        "96a4aa4f5eb449b1bc58d2d116695303": 1,
+        "1a9b494b74c34d3b879eb7f824b3824d": 1,
+        "aa395c340ecf464eb2dee48cc0ee544b": 1,
+        "b1af29dd77aa430688a46d060eb7bb1a": 3,
+        "147382e1de8641b98848b78e56b2493f": 3,
+        "87050cb836104675bfb1e8f5601b8ab1": 1,
+        "b0349165721f4c4ca13a52466ae2daf6": 1,
+        "95ef581d537148c2bc3046ed9dfb8763": 1,
+        "318d2c3124b740ee9ca4dd4423ec5ad1": 3,
+        "9ea59130ae074fa3abe27de8cbf71d91": 14,
+        "3ed8b89572e9486aa2ca7db5894b7060": 1,
+        "0386f24db305446c80f971e01f73b5dd": 2,
+        "907f9cca58f5468786af28a81e624f5c": 1,
+        "17ba4442cad945ff8b1246b251671b84": 4,
+        "9b4677b8c04c4cffbd294ab9025d338f": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 2,
+        "6d9f25bdda9a46b3b87673bc30a989d0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          4,
+          "HDR-M-2.54_1X1",
+          "3.3V,GND,RX,TX",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "AP2112K-3.3TRG1",
+          1,
+          "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL",
+          "5-3V",
+          {
+            "Manufacturer Part": "AP2112K-3.3TRG1",
+            "Manufacturer": "DIODES(美台)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C51118"
+          }
+        ],
+        [
+          "LM2596DP-5.0",
+          1,
+          "SOP-8-PP_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "12-5V",
+          {
+            "Manufacturer Part": "LM2596DP-5.0",
+            "Manufacturer": "HTC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C596341"
+          }
+        ],
+        [
+          "XH-2AK",
+          4,
+          "CONN-TH_XH-2A",
+          "AUTO-LIGHT,LIGHT-SENSOR,POWER,TRUNK",
+          {
+            "Manufacturer Part": "XH-2AK米色",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146104"
+          }
+        ],
+        [
+          "680uF",
+          1,
+          "CAP-TH_BD6.3-P2.60-D0.6-FD-1",
+          "CIN",
+          {
+            "Manufacturer Part": "SPT1CM681E12ORVZC",
+            "Manufacturer": "Yunxing(云星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3024241"
+          }
+        ],
+        [
+          "220uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D1.0-FD",
+          "COUT",
+          {
+            "Manufacturer Part": "UPW1A221MED1TD",
+            "Manufacturer": "Nichicon(尼吉康)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C225866"
+          }
+        ],
+        [
+          "1N5824_C27636124",
+          1,
+          "DO-201AD_BD5.3-L9.0-P13.00-D1.3-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N5824",
+            "Manufacturer": "DOWO(东沃)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C27636124"
+          }
+        ],
+        [
+          "1N4007 A7",
+          3,
+          "SOD-123FL_L2.8-W1.8-LS3.7-RD",
+          "D2,D3,D4",
+          {
+            "Manufacturer Part": "1N4007 A7",
+            "Manufacturer": "MSKSEMI(美森科)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2902912"
+          }
+        ],
+        [
+          "XD-XH-3A-G",
+          3,
+          "CONN-TH_3P-P2.50_XH-3A-C9900029692",
+          "HALL-CLUTCH,HALL-SHIFTER,TEMP",
+          {
+            "Manufacturer Part": "XD-XH-3A-G",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C17700947"
+          }
+        ],
+        [
+          "XH-5A_C2908603",
+          1,
+          "CONN-TH_5P-P2.50_XH-5A",
+          "IGNITION-LIGHTS",
+          {
+            "Manufacturer Part": "XH-5A",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2908603"
+          }
+        ],
+        [
+          "2.54MM-6P ZZ",
+          1,
+          "CONN-TH_6P-P2.50_HCTL_XH-6A_C2908604",
+          "KEY",
+          {
+            "Manufacturer Part": "2.54mm-6P ZZ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5368779"
+          }
+        ],
+        [
+          "33uH",
+          1,
+          "IND-SMD_L10.8-W10.0_SLO1040H",
+          "L1",
+          {
+            "Manufacturer Part": "SLO1040H330MTT",
+            "Manufacturer": "Sunltech(韩国顺磁)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C182163"
+          }
+        ],
+        [
+          "SRD-05VDC-SL-C",
+          3,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "LOCK,TRUNK-RELAY,UNLOCK",
+          {
+            "Manufacturer Part": "SRD-05VDC-SL-C",
+            "Manufacturer": "松乐",
+            "Supplier": "LCSC",
+            "Supplier Part": "C35449"
+          }
+        ],
+        [
+          "330",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R5,R6,R7",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R2,R3,R9,R10",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "10k",
+          4,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "REN,RIO,RSW,RVCC",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "20k",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "RGND",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "5k",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "RSENS",
+          {
+            "Manufacturer Part": "RI40-1/4W-10KΩ ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136549"
+          }
+        ],
+        [
+          "SS-22F06-G090",
+          1,
+          "SW-TH_6P-L16.5-W7.5-P4.0-LS2.6-TL",
+          "SW1",
+          {
+            "Manufacturer Part": "SS-22F06-G090",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2848929"
+          }
+        ],
+        [
+          "GT-TC029A-H025-L1A",
+          2,
+          "SW-SMD_L3.9-W2.9-P4.40-EH",
+          "SWEN,SWIO0",
+          {
+            "Manufacturer Part": "GT-TC029A-H025-L1A",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C843666"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D-H4",
+          1,
+          "WIFIM-SMD_ESP32-WROOM-32D",
+          "U2",
+          {
+            "Manufacturer Part": "ESP32-WROOM-32D-H4",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3013936"
+          }
+        ],
+        [
+          "2N2222AU",
+          4,
+          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "U3,U4,U5,U6",
+          {
+            "Manufacturer Part": "2N2222AU",
+            "Manufacturer": "CBI(创基)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C21714170"
+          }
+        ],
+        [
+          "TXS0102DCUR",
+          1,
+          "VSON8_L2.0-W2.3-P0.50-LS3.1-BL",
+          "U19",
+          {
+            "Manufacturer Part": "TXS0102DCUR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C53434"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0805",
+          "CIN-3,COUT-3",
+          {
+            "Manufacturer Part": "CL21A106KAYNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C15850"
+          }
+        ],
+        [
+          "ARD_MEGA2560PRO",
+          1,
+          "COMM-SMD_L54.0-W38.0-P2.54_ARD_MEGA2560PRO",
+          "U1",
+          {
+            "Manufacturer Part": "ARD_MEGA2560PRO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900135944"
+          }
+        ]
+      ],
+      "updateTime": 1729593369,
+      "createTime": 1729412171,
+      "histories": [],
+      "created_at": "2024-10-20 11:16:11",
+      "updated_at": "2024-10-22 13:36:09"
+    }
+  ],
+  "sort": [],
+  "title": "keyless entry car",
+  "foldername": "keyless entry car",
+  "schfilename": "keyless entry car.json",
+  "schfilemtime": 1732377175219
+}

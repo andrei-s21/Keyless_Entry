@@ -1,0 +1,605 @@
+{
+  "uuid": "bb07315367bfe4f6d884efb0eadb4164",
+  "path": "Offline/keyless key",
+  "name": "keyless key",
+  "content": "",
+  "created_at": "2024-10-20 14:07:06",
+  "updated_at": "2024-11-23 17:54:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d7afa68706016bb43b16f5aebe10198e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "846646c1b9e048a8a0cc1de5c79bfb8f": 1,
+        "5c31be170d43458aac5950475928a473": 1,
+        "b21eb32995554ad4aa0546e820a652e2": 1,
+        "a0619dea164b47d48620562204868809": 1,
+        "b512bd2846815ee71458e6c7c8be3a9f": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 4,
+        "948b0d7afb18dac4f0e67db74a7f46da": 1,
+        "404aa9221ff94de597b8734806e7c74f": 5,
+        "e280257fb2d644db818db7d7e5b4b205": 1,
+        "10c2faf94d3f4287a7c871ed31ed761a": 1,
+        "7ec83a940fbe4eb29751a604fcb74f22": 1,
+        "c88bca2019694c75a4c7760ebee5af60": 2,
+        "4310674c17a7400285a75bef632399bc": 1,
+        "4cddce7e3e0b4369aa617fd60e55a320": 5,
+        "56d222b1fff944d6b385239e1b7ea88c": 1,
+        "5c3144a267754054aef1ef480cdaa748": 2,
+        "ff5cd05233a34e4b88026cbac55aebc0": 1,
+        "571fccde341d4336956d8956c70418ef": 1,
+        "5ff01e5b28266f76e3c6ac889a7fdd07": 1,
+        "93d6e73cd130439d97bfa49363f1638e": 1,
+        "4b1dfedb8a064ce580d79df53972c77a": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          5,
+          "HDR-M-2.54_1X1",
+          "3.3V,CHARGING,GND1,RX1,TX1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          4,
+          "HDR-F-2.54_1X2",
+          "BATT,COM,INPUT,PWR",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49661"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Manufacturer Part": "CL31B106KBHNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C89632"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C2",
+          {
+            "Manufacturer Part": "KM104M050D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C28061"
+          }
+        ],
+        [
+          "4.7uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C3",
+          {
+            "Manufacturer Part": "50YXF4R7MEFC5X11",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C88759"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.5-FD",
+          "C5",
+          {
+            "Manufacturer Part": "ERM1HM010D11OT",
+            "Manufacturer": "AISHI(艾华集团)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C721208"
+          }
+        ],
+        [
+          "TS-1002S-05026C",
+          5,
+          "KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.0",
+          "ENGINE,LIGHTS,LOCK,SCREEN,UNLOCK",
+          {
+            "Manufacturer Part": "TS-1002S-05026C",
+            "Manufacturer": "XUNPU(讯普)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C455110"
+          }
+        ],
+        [
+          "FS8205A_C2830320",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "Q1",
+          {
+            "Manufacturer Part": "FS8205A",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2830320"
+          }
+        ],
+        [
+          "2kΩ",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "ARG03BTC2001",
+            "Manufacturer": "Viking(光颉)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C335077"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R0603",
+          "R2",
+          {
+            "Manufacturer Part": "RT0603BRD07100RL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C122970"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Manufacturer Part": "RT0603BRD071KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C110776"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0603",
+          "R4,R9",
+          {
+            "Manufacturer Part": "RT0603BRD075K1L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C122969"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "R0603",
+          "R5",
+          {
+            "Manufacturer Part": "0603WAF1003T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25803"
+          }
+        ],
+        [
+          "27kΩ",
+          1,
+          "R0603",
+          "R6",
+          {
+            "Manufacturer Part": "RT0603BRD0727KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C309651"
+          }
+        ],
+        [
+          "10kΩ",
+          2,
+          "R0603",
+          "REN,RIO",
+          {
+            "Manufacturer Part": "RT0603BRD0710KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95204"
+          }
+        ],
+        [
+          "GT-TC029A-H025-L1A",
+          2,
+          "SW-SMD_L3.9-W2.9-P4.40-EH",
+          "SWEN1,SWIO1",
+          {
+            "Manufacturer Part": "GT-TC029A-H025-L1A",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C843666"
+          }
+        ],
+        [
+          "TP4056_C725790",
+          1,
+          "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "U1",
+          {
+            "Manufacturer Part": "TP4056",
+            "Manufacturer": "UMW(友台半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C725790"
+          }
+        ],
+        [
+          "USB-TYPE-C-007",
+          1,
+          "TYPE-C-SMD_USB-TYPE-C-007",
+          "U3",
+          {
+            "Manufacturer Part": "USB-TYPE-C-007",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2927027"
+          }
+        ],
+        [
+          "DW01A_C351410",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U4",
+          {
+            "Manufacturer Part": "DW01A",
+            "Manufacturer": "PUOLOP(迪浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C351410"
+          }
+        ],
+        [
+          "TPS76933DBVR",
+          1,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "U5",
+          {
+            "Manufacturer Part": "TPS76933DBVR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2864290"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D-H4",
+          1,
+          "WIFIM-SMD_ESP32-WROOM-32D",
+          "U6",
+          {
+            "Manufacturer Part": "ESP32-WROOM-32D-H4",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3013936"
+          }
+        ]
+      ],
+      "updateTime": 1732377018,
+      "createTime": 1729422426,
+      "histories": [],
+      "created_at": "2024-10-20 14:07:06",
+      "updated_at": "2024-11-23 17:50:18"
+    },
+    {
+      "uuid": "1e249b0a3eefd3775df2b4a035c97b52",
+      "puuid": "bb07315367bfe4f6d884efb0eadb4164",
+      "title": "PCB_keyless key",
+      "filename": "PCB_keyless key.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "19c77e72422b43b59c26b9fa67af5de4": 5,
+        "36b1306a115341f4b4d9407fb34974e0": 4,
+        "7bdec8012728462a85919a4d0d033579": 1,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 2,
+        "0cb5fe22d59042be96f1b06aa502c4c5": 1,
+        "6621ba9502e54f7ca3c917848586657c": 5,
+        "f3d2a2ecf658447dac746eb15158a989": 1,
+        "398691f1f785460098bbe5ee6590333c": 9,
+        "0386f24db305446c80f971e01f73b5dd": 2,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "bf14b659169f4500938eb827820d6d0b": 1,
+        "9a066f903e65476fa74739d5e9b0ceb9": 1,
+        "e7f085e4f71344109c090040716070ab": 1,
+        "907f9cca58f5468786af28a81e624f5c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          5,
+          "HDR-M-2.54_1X1",
+          "3.3V,CHARGING,GND1,RX1,TX1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C81276"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          4,
+          "HDR-F-2.54_1X2",
+          "BATT,COM,INPUT,PWR",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "LCSC",
+            "Supplier Part": "C49661"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Manufacturer Part": "CL31B106KBHNNNE",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C89632"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C2",
+          {
+            "Manufacturer Part": "KM104M050D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C28061"
+          }
+        ],
+        [
+          "4.7uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C3",
+          {
+            "Manufacturer Part": "50YXF4R7MEFC5X11",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C88759"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.5-FD",
+          "C5",
+          {
+            "Manufacturer Part": "ERM1HM010D11OT",
+            "Manufacturer": "AISHI(艾华集团)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C721208"
+          }
+        ],
+        [
+          "TS-1002S-05026C",
+          5,
+          "KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.0",
+          "LIGHTS,LOCK,SCREEN,TRUNK,UNLOCK",
+          {
+            "Manufacturer Part": "TS-1002S-05026C",
+            "Manufacturer": "XUNPU(讯普)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C455110"
+          }
+        ],
+        [
+          "FS8205A_C2830320",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "Q1",
+          {
+            "Manufacturer Part": "FS8205A",
+            "Manufacturer": "TECH PUBLIC(台舟)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2830320"
+          }
+        ],
+        [
+          "2kΩ",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Manufacturer Part": "ARG03BTC2001",
+            "Manufacturer": "Viking(光颉)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C335077"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R0603",
+          "R2",
+          {
+            "Manufacturer Part": "RT0603BRD07100RL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C122970"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "R0603",
+          "R3",
+          {
+            "Manufacturer Part": "RT0603BRD071KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C110776"
+          }
+        ],
+        [
+          "5.1kΩ",
+          2,
+          "R0603",
+          "R4,R9",
+          {
+            "Manufacturer Part": "RT0603BRD075K1L",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C122969"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "R0603",
+          "R5",
+          {
+            "Manufacturer Part": "0603WAF1003T5E",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C25803"
+          }
+        ],
+        [
+          "27kΩ",
+          1,
+          "R0603",
+          "R6",
+          {
+            "Manufacturer Part": "RT0603BRD0727KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C309651"
+          }
+        ],
+        [
+          "10kΩ",
+          2,
+          "R0603",
+          "REN,RIO",
+          {
+            "Manufacturer Part": "RT0603BRD0710KL",
+            "Manufacturer": "YAGEO(国巨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C95204"
+          }
+        ],
+        [
+          "GT-TC029A-H025-L1A",
+          2,
+          "SW-SMD_L3.9-W2.9-P4.40-EH",
+          "SWEN1,SWIO1",
+          {
+            "Manufacturer Part": "GT-TC029A-H025-L1A",
+            "Manufacturer": "G-Switch(品赞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C843666"
+          }
+        ],
+        [
+          "TP4056_C725790",
+          1,
+          "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "U1",
+          {
+            "Manufacturer Part": "TP4056",
+            "Manufacturer": "UMW(友台半导体)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C725790"
+          }
+        ],
+        [
+          "USB-TYPE-C-007",
+          1,
+          "TYPE-C-SMD_USB-TYPE-C-007",
+          "U3",
+          {
+            "Manufacturer Part": "USB-TYPE-C-007",
+            "Manufacturer": "DEALON(德艺隆)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2927027"
+          }
+        ],
+        [
+          "DW01A_C351410",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U4",
+          {
+            "Manufacturer Part": "DW01A",
+            "Manufacturer": "PUOLOP(迪浦)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C351410"
+          }
+        ],
+        [
+          "TPS76933DBVR",
+          1,
+          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "U5",
+          {
+            "Manufacturer Part": "TPS76933DBVR",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2864290"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D-H4",
+          1,
+          "WIFIM-SMD_ESP32-WROOM-32D",
+          "U6",
+          {
+            "Manufacturer Part": "ESP32-WROOM-32D-H4",
+            "Manufacturer": "ESPRESSIF(乐鑫)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3013936"
+          }
+        ]
+      ],
+      "updateTime": 1732377243,
+      "createTime": 1729667751,
+      "histories": [],
+      "created_at": "2024-10-23 10:15:51",
+      "updated_at": "2024-11-23 17:54:03"
+    }
+  ],
+  "sort": [],
+  "title": "keyless key",
+  "foldername": "keyless key",
+  "schfilename": "keyless key.json",
+  "schfilemtime": 1732377018231
+}

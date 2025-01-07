@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_2">
+
+    <Button
+        android:id="@+id/btnLight"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00000000"
+        android:foreground="@drawable/lights"
+
+        android:text=" "
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toLeftOf="@id/btnUnlock"
+        tools:ignore="SpeakableTextPresentCheck"
+
+        android:onClick="light"/>
+
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+
+        android:foreground="@drawable/unlock_4"
+        android:text=" "
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btnLight"
+        app:layout_constraintRight_toLeftOf="@id/btnLock"
+
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="unlock"
+        />
+
+    <Button
+        android:id="@+id/btnLock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+
+        android:foreground="@drawable/lock_4"
+        android:text=" "
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btnUnlock"
+        app:layout_constraintRight_toLeftOf="@+id/btnEngine"
+
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="lock"/>
+
+    <Button
+        android:id="@+id/btnEngine"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+
+        android:foreground="@drawable/piston"
+        android:text=" "
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btnLock"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="start_stop"/>
+
+    <TextView
+        android:id="@+id/textGear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Gear"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/textEngine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/textGear"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Engine"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/valueGear"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/textGear"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+   />
+
+    <TextView
+        android:id="@+id/valueEngine"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/valueGear"
+        app:layout_constraintLeft_toRightOf="@id/textEngine"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/valueVoltage"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textVoltage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintRight_toLeftOf="@id/valueVoltage"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Voltage"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/valueTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valueVoltage"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+
+
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/textVoltage"
+        app:layout_constraintRight_toLeftOf="@id/valueVoltage"
+
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Temp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+    />
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+
+        android:clickable="true"
+        android:onClick="openSettings"
+        android:src="@drawable/gear"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/textEngine"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/statusLights"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textEngine"
+        app:layout_constraintEnd_toStartOf="@id/statusLock"
+
+        />
+    <ImageView
+        android:id="@+id/statusLock"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="80dp"
+
+
+        app:layout_constraintEnd_toStartOf="@id/statusEngine"
+        app:layout_constraintStart_toEndOf="@id/statusLights"
+        app:layout_constraintTop_toBottomOf="@id/textEngine"
+
+        />
+
+    <ImageView
+        android:id="@+id/statusEngine"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textEngine"
+        app:layout_constraintStart_toEndOf="@id/statusLock"
+
+        />
+    <ImageView
+        android:id="@+id/statusConnection"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textEngine"
+
+        android:layout_margin="10dp"
+
+        android:src="@drawable/bluetooth_disconnect_2"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#000000"
+                android:centerColor="#202020"
+
+                android:endColor="#303030"
+
+                android:angle="@android:integer/config_longAnimTime"
+                android:type="linear" />
+        </shape>
+    </item>
+
+
+</selector>
